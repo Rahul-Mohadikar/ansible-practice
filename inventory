@@ -1,0 +1,10 @@
+[application]
+172.31.21.133 grp=testing
+[database]
+172.31.22.142 grp=production
+[application:vars]
+grp=deployment
+[database:vars]
+grp=edu
+
+
